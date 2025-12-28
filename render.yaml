@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: kanagenuis-bot-analysis
+    env: python
+    runtime: python3.11
+    startCommand: python Main.py
